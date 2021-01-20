@@ -114,6 +114,8 @@ main {
     min-width: 320px;
 }
 
+/* First Section */
+
 .main_exchange-container {
     width: 100%;
     height: auto;
@@ -329,4 +331,123 @@ main {
 .commisions_table-date p {
     font-size: 1.2rem;
     color: var(--warm-black);
+}
+
+/* Second Section */
+
+.main_product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+    color: var(--just-white);
+}
+
+.main_product-detail p {
+    color: #808080;
+    font-weight: 500;
+}
+
+.main_product-detail .product_detail-logo {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -12px;
+    /* Calcula la mitad del ancho del contenedor menos la mitad del ancho del logo */
+    left: calc(50% - 20px);
+    background-image: url('./assets/icons/batata.svg');
+}
+
+.main_product-detail .product_detail-title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product_detail-title h2 {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    margin-bottom: 20px;
+}
+
+.product_detail-title p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.product_cards-container .product_card-detail {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 152px;
+    margin: 16px auto;
+    padding: 16px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+/* Icons */
+
+.product_card-detail .icon_clock {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /* margin-bottom: 10px; */
+    background-image: url('./assets/icons/clock.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product_card-detail .icon_eye {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /* margin-bottom: 10px; */
+    background-image: url('./assets/icons/eye.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product_card-detail .icon_dollar {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /* margin-bottom: 10px; */
+    background-image: url('./assets/icons/dollar-sign.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product_card-detail .icon_check {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /* margin-bottom: 10px; */
+    background-image: url('./assets/icons/check-circle.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Icons-end */
+
+.product_cards-container .product_card-title {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    margin: 10px 0;
+}
+
+.product_cards-container .product_card-body {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
 }
