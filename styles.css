@@ -114,7 +114,7 @@ main {
     min-width: 320px;
 }
 
-/* First Section */
+/* Exchange section */
 
 .main_exchange-container {
     width: 100%;
@@ -333,7 +333,7 @@ main {
     color: var(--warm-black);
 }
 
-/* Second Section */
+/* Benefits section */
 
 .main_product-detail {
     position: relative;
@@ -450,4 +450,25 @@ main {
 .product_cards-container .product_card-body {
     font-size: 1.4rem;
     line-height: 1.8rem;
+}
+
+/* Image section */
+
+.bitcoin_img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('./assets/img/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.bitcoin_img-container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
 }
